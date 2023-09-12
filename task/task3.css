@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+.c{
+	height: 5000px;
+	width: 800px;
+	border: 3px black solid;
+
+}
+.a{
+	
+	color: blue;
+	font-size: 30px;
+	margin: 10px;
+} 
+.b{
+	background-color: blue;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.d{
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+i{
+	font-size: 30px;
+	color: blue;
+}
+button{
+	height: 25px;
+	width: 150px;
+	border-radius: 5px;
+	font-size: 10px;
+}
+#e{
+	margin-top: 80px;
+	
+}
+.img_data_2{
+	margin-right: 100px;
+}
+.g{
+	height: 400px;
+	width: 900px;
+	background-image: url(img7.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#k{
+	margin-top: 100px;
+
+}
+#m{
+	margin-top: 30px;
+}

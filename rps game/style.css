@@ -1,0 +1,90 @@
+<style>
+    
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #082c6c;
+    color: #fff;
+    }
+   
+    .game{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .title{
+        top: 0;
+    position: absolute;
+    font-size: 50px;
+    color: greenyellow;
+     box-shadow: 4px;
+    }
+    
+    .score{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    }
+    
+    .p-count,.c-count{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    }
+    
+    .options{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    }
+    
+    .rock,.paper,.scissor{
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+    }
+
+    .move{
+        color: yellowgreen;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+    
+    .reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: red;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    
+    .result{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    }
+    .a{
+        color: lightskyblue;
+    }
+    .b{
+        height: 250px;
+        width: 200px;
+
+    }
+.c{
+    background-color: lavenderblush;
+}
+
+    
+</style>
